@@ -1,0 +1,28 @@
+body{
+    background-image: url(/Assets/Mundo.jpg);
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no repeat !important;
+}
+
+.FlexC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.card{
+    
+     width: 20rem !important;
+    margin: 50px;
+     overflow: hidden;
+     height: max-content !important;
+    background-color: transparent !important;
+}
+#Barra{
+    border-radius: 5px;
+    border: solid;
+}
