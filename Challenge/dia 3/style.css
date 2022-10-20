@@ -1,0 +1,79 @@
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: rgb(245, 239, 239);
+}
+.flex_container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 188, 92);
+    position: fixed;
+    width: 97.9%;
+    margin-right: 14px;
+}
+.lista{
+    color: white;
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.lista:hover{
+    cursor: pointer;
+    box-shadow: -2px 0px 1px;
+}
+
+.flex2{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+img {
+    padding: 60px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 800%;
+      overflow: hidden;
+      height: 80%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 80% ;
+      height: auto;
+      overflow: hidden;
+    }
+  }
+  @keyframes appear{
+    from{
+        margin-left: 100%;
+        opacity: 0;
+    }
+    
+    to{ 
+
+        opacity: 1;
+    }
+    
+  }
+  .gridF{
+    color: white;
+    padding: 2px;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 50% 50% ;
+    width: 40%;
+    margin-left:33%;
+  }
+
+  .gridF{
+    animation-duration: 3s;
+    animation-name: appear;
+  }
+  
