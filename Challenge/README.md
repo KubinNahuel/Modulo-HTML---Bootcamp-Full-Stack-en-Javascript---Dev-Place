@@ -43,3 +43,17 @@ Dia 3.
 
 .Desarrollar las demás páginas del sitio web pendientes (para empresas, productos/servicios, Sobre Nosotros).
 
+4. En la landing page trabajada, asegurarse que cumpla las siguientes condiciones:
+
+.Usar Bootstrap (de ser necesario) para el navbar del sitio web.
+
+.Usar Bootstrap para todos los modals del sitio web. Apli
+
+.Usar Bootstrap para una nueva pagina dentro del sitio web denominada “Precios”, que serán los precios del producto o servicio del sitio web (Se puede usar las cards de pricing de bootstrap).
+
+.Usar Bootstrap para hacer un carousel en donde se considere necesario.
+
+.Usar Bootstrap en otras secciones donde se consideren necesarias. 
+
+
+
