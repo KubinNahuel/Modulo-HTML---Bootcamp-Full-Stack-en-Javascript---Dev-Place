@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/Assets/bootstrap.min.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+  </head>
+  <body style="background-color: beige;">
+    <div class="flex_container">
+        <header>
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Spotify</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/Prices.html">Precios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nosotros</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                  Excelencia en Sonido
+                </span>
+              </div>
+            </div>
+          </nav>
+        </header>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Assets/banners.jpg" class="d-block w-100" alt="banner 1" >
+        </div>
+        <div class="carousel-item">
+          <img src="/Assets/banners.jpg" class="d-block w-100" alt="banner 2">
+        </div>
+        <div class="carousel-item">
+          <img src="/Assets/banners.jpg" class="d-block w-100" alt="banner 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <form style="margin-left: 2.5rem; margin-right: 2.5rem; margin-top: 2.5rem;">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Artista Favorito..</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Duki...">
+        <div id="emailHelp" class="form-text">La música es sinónimo de libertad, es escuchar lo que quieras y como quieras.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Genero Favorito..</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Trap, Raeggeton..">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" style="background-color: grey;">
+        <label class="form-check-label" for="exampleCheck1" >Recomendarte Musica del estilo.</label>
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: green;">Enviar</button>
+    </form>
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Felicidades, Tenes buen gusto</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Ahora disfruta de nuestro excelente contenido y calidad de sonido..
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+            <button type="button" class="btn btn-primary" style="background-color: green;">Continuar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/Assets/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
