@@ -4,3 +4,10 @@
   justify-content: space-around;
   margin-top: 10rem;
 }
+
+@media screen and (max-width: 400px) {
+ 
+.FlexC{
+  flex-wrap: wrap;
+}
+}
