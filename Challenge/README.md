@@ -43,7 +43,7 @@ Dia 3.
 
 .Desarrollar las demás páginas del sitio web pendientes (para empresas, productos/servicios, Sobre Nosotros).
 
-4. En la landing page trabajada, asegurarse que cumpla las siguientes condiciones:
+Dia  4. En la landing page trabajada, asegurarse que cumpla las siguientes condiciones:
 
 .Usar Bootstrap (de ser necesario) para el navbar del sitio web.
 
@@ -55,5 +55,15 @@ Dia 3.
 
 .Usar Bootstrap en otras secciones donde se consideren necesarias. 
 
+
+
+Dia 5. 
+.Establecer variables y mezclas usando el preprocesador de preferencia para usar en clases y elementos seleccionados.
+
+.Usar anidamiento en donde se considere necesario.
+
+.De considerar necesario, usar módulos, herencias/extensiones.
+
+.Para width y height de containers, puedes usar operadores.
 
 
