@@ -1,0 +1,110 @@
+@use 'footer' ;
+
+
+* {
+  margin: 0;
+  padding: auto;
+
+}
+body{
+  background-color: rgb(241, 252, 195);
+}
+
+
+$spotify-color: #00c853;
+.lista {
+  color: white;
+  list-style-type: none;
+  display: inline;
+  padding: 15px;
+  border-radius: 6px;
+
+    &:hover{
+    background-color: #2e7d32;
+    cursor: pointer;
+    box-shadow: -2px 4px 4px black;
+  }
+
+    a { 
+      &:link,&:visited,&:active {
+      text-decoration: none;
+      color: rgb(246, 244, 244);
+    }
+  }
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    background-color: $spotify-color;
+    width: 100%;
+  flex-wrap: wrap;
+    height: 100%;
+  .FlexC {
+    display: flex;
+    width: 97.9%;
+    justify-content: space-around;
+    padding: 15px;
+
+    width: 120%;
+    
+  }
+}
+
+
+
+
+
+.flex2 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+  img {
+    width:100%; 
+    height:auto;
+    padding: 60px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 800%;
+    overflow: hidden;
+    height: 80%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+@keyframes appear {
+  from {
+    margin-left: 100%;
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.gridF{
+  color: white;
+  padding: 2px;
+  background-color: green;
+  display: grid;
+  grid-template-rows: 50% 50% ;
+  width: 50%;
+  margin-left:25%;
+  animation-duration: 3s;
+  animation-name: appear;
+}
+
